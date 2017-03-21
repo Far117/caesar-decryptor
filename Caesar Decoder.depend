@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1489995893 source:c:\users\frank\dropbox\programs\c group\caesar decoder\src\frankcommonlibrary.c
+	"frankCommonLibrary.h"
+	<stdio.h>
+	<string.h>
+
+1490061493 c:\users\frank\dropbox\programs\c group\caesar decoder\include\frankcommonlibrary.h
+
+1489995773 source:c:\users\frank\dropbox\programs\c group\caesar decoder\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<time.h>
+	"frankCommonLibrary.h"
+	"RawTextProcessing.h"
+	"Decode.h"
+
+1489996765 c:\users\frank\dropbox\programs\c group\caesar decoder\include\rawtextprocessing.h
+
+1489967322 source:c:\users\frank\dropbox\programs\c group\caesar decoder\src\rawtextprocessing.c
+	"RawTextProcessing.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Decode.h"
+
+1490061217 c:\users\frank\dropbox\programs\c group\caesar decoder\include\decode.h
+	<stdbool.h>
+	"RawTextProcessing.h"
+
+1490061219 source:c:\users\frank\dropbox\programs\c group\caesar decoder\src\decode.c
+	"Decode.h"
+	<stdlib.h>
+	<stdio.h>
+	"RawTextProcessing.h"
+	"stdbool.h"
+	"ctype.h"
+	"frankCommonLibrary.h"
+
