@@ -3,7 +3,7 @@ A small program that cracks caesar-cipher-encrypted messages using custom dictio
 
 # How it Works
 The program comes with three dictionary files, *short.dict*, *normal.dict*, and *long.dict*. The user can create
-more by calling */p* on a file containing a newline-delineated list of words to add to the dictionary.
+more by calling */p* on a file containing a newline-delimited list of words to add to the dictionary.
 
 The short dictionary is suitable for most applications and contains English's 100 most common words.
 The normal dictionary contains English's 1,000 most common words, and is a bit more intensive.
@@ -28,6 +28,6 @@ decode /i encryptedFile.txt
 decode /i encryptedFile.txt /d someDictionary.dict
 
 # Disclaimer
-This is, in no way, shape, or form, an elegant way to break these. It works, however, and it does so quickly enough, at ~1.8 seconds to check 62,000,000+ strings (8-word cipher with the long dictionary) on my subpar laptop.
+This is, in no way, shape, or form, an elegant way to break these. It works, however, and it does so quickly enough, at ~1.8 seconds to check 62,000,000+ strings (8-word cipher with the long dictionary) on my subpar laptop, with typical time to break a cipher ranging from 20 to 50ms with the short list.
 
 ~Enjoy
